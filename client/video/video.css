@@ -1,0 +1,19 @@
+#playlist,audio{background:#666;width:400px;padding:20px;}
+.active a{color:#5DB0E6;text-decoration:none;}
+li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+
+#songpic {
+  height: 235px;
+}
+
+#audio {
+  width:495px;
+  margin-left:-27px;
+}
+
+.list-group {
+  margin-bottom: 20px !important;
+  margin-left: -25px !important;
+  margin-top: -23px !important;
+}

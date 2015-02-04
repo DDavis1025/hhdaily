@@ -1,0 +1,139 @@
+
+<head>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="hiphop.css">
+</head>
+
+
+<body>
+  <h1>Welcome to HHE37</h1>
+  {{>yield}}
+  {{>home}}
+</body>
+
+<template name="contact">
+  {{>home}}
+  <h1>Contact</h1>
+</template>
+
+
+<template name="home">
+  <head>
+
+  </head>
+
+
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <a class="navbar-brand" rel="home" href="/" title="HHE37">
+          <img style="max-width:30px; margin-left:-5px;"
+          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-j5tEHTbd_wbPEkVSbOwysNCk1B1HrOi67QsLT6f17zG9h-tN">
+        </a>
+
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <h3 class="ui-bar ui-bar-a" id="heading">Mixtapes</h3>
+
+
+
+    <div class="ui-grid-a" data-theme="b" id="video"><div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:170px">
+
+
+
+    <a href="/video">
+      <img src="http://images.livemixtapes.com/artists/rocnation/jcole-thewarmup/cover.jpg" height="100%" width="100%" id="gridpic">
+<figcaption>J.Cole-Warm Up</figcaption></a>
+
+
+
+
+  </div></div>
+
+
+    <div class="ui-block-b" style="height:155px"><div class="ui-bar ui-bar-a" style="height:170px">
+    <img src="http://images.livemixtapes.com/artists/rocnation/jcole-thewarmup/cover.jpg" width="100%" height="100%" id="gridpic2">
+  <figcaption>Fig2</figcaption>
+
+</div></div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+    <h3 class="ui-bar ui-bar-a" id="heading">Tracks</h3>
+
+
+
+
+
+    <ul data-role="listview" class="ui-listview" div id="listview">
+
+      <li class="ui-li-has-thumb ui-first-child">
+
+
+
+
+
+
+        <a href="/video" class="ui-btn ui-btn-icon-right ui-icon-carat-r" rel="external">
+          <img src="../_assets/img/album-bb.jpg"><h1>Track</h1><p>_</p></a></li>
+
+          <li class="ui-li-has-thumb">
+            <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <img src="../_assets/img/album-hc.jpg"><h1>Track</h1><p>_</p></a></li>
+
+              <li class="ui-li-has-thumb  ui-last-child"><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <img src="../_assets/img/album-p.jpg"><h1>Track</h1><p>_</p></a></li>
+              </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+              <br>
+              <br>
+              <br>
+
+
+
+
+</body>
+
+</template>

@@ -1,0 +1,244 @@
+
+/*Bootstrap*/
+
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+width: 150px;
+height: auto;
+margin-left: -15px;
+}
+
+
+#yo
+{
+	width: 17%;
+	position: relative;
+  padding-right:0px;
+  margin-right:4.5px;
+}
+
+
+div.desc{
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    width: 150px;
+}
+
+.fix{
+    width: 100%;
+    padding: 0px;
+}
+
+#ok
+{
+	width:200px;
+}
+
+
+
+p {
+	margin: 0 0 10px;
+	margin-bottom: 15px;
+	font-size: 15px !important;
+}
+
+
+
+/*Jquery Mobile*/
+
+
+#twogrid
+{
+	margin-top:-2px;
+}
+
+#heading {
+	padding: .1em 1em;
+	overflow: hidden;
+	display: block;
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #101010;
+	border-color: #202020;
+	color: white;
+	font-weight: 200;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+
+
+.ui-overlay-a, .ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+	background-color: #0A0A0A !important;
+	border-color: #bbb;
+	color: #333;
+	text-shadow: 0 1px 0 #f3f3f3;
+}
+
+
+
+
+
+
+
+#header {
+	position:fixed !important;
+	width:100%;
+	background-color: #101010;
+	border-color: #202020;
+	color:white;
+}
+
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a
+.ui-btn, html .ui-body-a .ui-btn, html body
+.ui-group-theme-a .ui-btn,
+html head+body
+.ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+	background-color: #1B1B1B !important;
+	border-color: #2A2A2A !important;
+	color: #EAE9E9 !important;
+	font-weight:1px !important;
+}
+
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #171717 !important;
+	border-color: #282828 !important;
+	color: #333;
+	text-shadow: 0 1px 0 #eee;
+	font-weight: 700;
+}
+
+
+
+
+/* gallery display */
+.photos {
+	display: block;
+}
+
+.photos ul {
+	list-style: none;
+
+}
+
+.photos ul li {
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 0;
+	text-align:center;
+}
+
+.photos ul li span a {
+	background-color: #fff;
+}
+
+.photos ul li a {
+
+	display: block;
+	/*
+	margin-right: 10px;
+	margin-bottom: 7px; */
+	opacity: 0.75;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.photos ul li a:hover {
+	opacity: 1.0;
+}
+
+.photos ul li a img {
+	border: 6px solid #e1d9ec;
+}
+
+
+
+
+.ui-listview>li h1, .ui-listview>li h2, .ui-listview>li h3, .ui-listview>li h4, .ui-listview>li h5, .ui-listview>li h6 {
+	font-size: 1em;
+	font-weight:300 !important;
+	display: block;
+	margin: .45em 0;
+/*	text-overflow: ellipsis; */
+	overflow: hidden;
+	color: white;
+	white-space: nowrap;
+}
+
+
+
+
+
+.ui-listview>li p {
+	font-size: .75em;
+	font-weight: 100 !important;
+	font-style: oblique;
+	display: block;
+	margin: .6em 0;
+	/*text-overflow: ellipsis;*/
+	overflow: hidden;
+	/*white-space: nowrap;*/
+	color:grey;
+}
+
+a
+{
+	color:#272626 !important;
+}
+
+#gridpic {
+	height:120px !important;
+	width:100% !important;
+}
+
+
+#gridpic2 {
+	height:120px !important;
+	width:100% !important;
+}
+
+
+.ui-grid-a, .ui-grid-b, .ui-grid-c, .ui-grid-d, .ui-grid-solo {
+	overflow: hidden !important;
+	width: 320px !important;
+}
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block !important;
+	border:1px solid rgba(19, 78, 145, 0.48) !important;
+	color:white;
+	width: 162px !important;
+	margin-left: -17px !important;
+	text-align:center !important;
+	padding-bottom:10px !important;
+	margin:10px;
+}
+
+#heading
+{
+	background-color:black !important;
+	border-color:black !important;
+}
+
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #0A0A0A !important;
+	border-color: rgba(19, 78, 145, 0.48) !important;
+	color: #333;
+	text-shadow: 0 1px 0 #eee;
+	font-weight: 700;
+}
