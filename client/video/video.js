@@ -1,4 +1,4 @@
-$(window).load(function(){
+Template.video.rendered = function(){
   var audio;
   var playlist;
   var tracks;
@@ -37,5 +37,4 @@ $(window).load(function(){
     audio[0].load();
     audio[0].play();
   }
-
-})
+}

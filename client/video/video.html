@@ -1,7 +1,8 @@
 <template name="video">
 
   <head>
-  </head>
+  <script src="http://jwpsrv.com/library/nuP2itLWEeKtTyIACqoQEQ.js"></script>
+</head>
 
   <body>
 
@@ -17,24 +18,31 @@
     </div>
 
 
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
 
 
-<div class="row">
+    <div class="row">
       <div class="col-xs-6 col-md-3">
         <a href="#" class="">
-          <img id="songpic" src="pictures/JColeWarmUp.jpg" alt="..." height="100px" width="350px">
+          <img id="songpic" src="pictures/JColeWarmUp.jpg" alt="..." height="auto" width="320px">
         </a>
       </div>
     </div>
 
-    <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
-      <source type="audio/mp3" src="Intro.mp3">
-        Sorry, your browser does not support HTML5 audio.
-      </audio>
+
+
+
+    <br>
+    <br>
+    <!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+
+      <audio controls id="audio" preload="auto" tabindex="0" autoplay="false" type="audio/mpeg">
+        <source type="audio/mpeg" src="JCole-WarmUp/GrownSimba.mp3">
+          Sorry, your browser does not support HTML5 audio.
+        </audio>
       <ul class="list-group" id="playlist">
         <li class="list-group-item"><a href="JCole-WarmUp/Intro.mp3">1. Intro</a></li>
         <li class="list-group-item"><a href="JCole-WarmUp/GrownSimba.mp3">2. Grown Simba</a></li>
@@ -47,7 +55,7 @@
 
       </ul>
 
-</body>
+    </body>
 
 
-</template>
+  </template>
