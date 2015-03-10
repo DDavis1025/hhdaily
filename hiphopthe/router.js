@@ -1,7 +1,5 @@
 Router.map(function(){
-  this.route('player');
-  this.route('video');
-  this.route('home',{
+  this.route('video',{
     path:'/'
   })
 });
