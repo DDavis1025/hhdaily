@@ -6,16 +6,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
 
-        <a class="navbar-brand" rel="home" href="/" title="HHE37">
-          <img style="max-width:30px; margin-left:-5px;"
-          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-j5tEHTbd_wbPEkVSbOwysNCk1B1HrOi67QsLT6f17zG9h-tN">
-        </a>
-
-      </div>
-    </div>
 
 
     <br>
@@ -37,21 +28,10 @@
     <br>
     <!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
 
-    <audio id="audio_element" src="Air Review" width="320" height="240" poster="poster.jpg" controls="controls" preload="none"  webkit-playsinline>
-        <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
-        <source type="video/mp4" src="JCole-WarmUp/Jcole.mp4" />
-        <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
-        <track kind="subtitles" src="subtitles.srt" srclang="en" />
-        <!-- Optional: Add chapters -->
-        <track kind="chapters" src="chapters.srt" srclang="en" />
-        <!-- Flash fallback for non-HTML5 browsers without JavaScript -->
-        <object width="320" height="240" type="application/x-shockwave-flash" data="flashmediaelement.swf">
-            <param name="movie" value="flashmediaelement.swf" />
-            <param name="flashvars" value="controls=true&file=myvideo.mp4" />
-            <!-- Image as a last resort -->
-            <img src="myvideo.jpg" width="320" height="240" title="No video playback capabilities" />
-        </object>
-    </audio>
+    <audio controls="controls">
+        <source type="audio/mpeg" src="">
+          Sorry, your browser does not support HTML5 audio.
+        </audio>
       <ul class="list-group" id="playlist">
         <li class="list-group-item"><a href="JCole-WarmUp/Intro.mp3">1. Intro</a></li>
         <li class="list-group-item"><a href="JCole-WarmUp/GrownSimba.mp3">2. Grown Simba</a></li>
