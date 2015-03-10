@@ -1,5 +1,5 @@
 Router.map(function(){
-  this.route('slidePanel');
+  this.route('player');
   this.route('video');
   this.route('home',{
     path:'/'
